@@ -11,7 +11,7 @@ from fb_login import email_id,password
 #code
 class Tinder():
     def __init__(self):
-        self.driver = webdriver.Firefox(executable_path="C:/Program Files/Mozilla Firefox/firefox driver/geckodriver")
+        self.driver = webdriver.Firefox(executable_path="driver path")
     
     def opentinder(self):
         self.driver.get("https://tinder.com/")
@@ -54,7 +54,7 @@ class Tinder():
                 self.swipe_dislike()
             quit_swiping = input("press Any button to continue -- Continue ,q -- to Quit from swiping! ")
             if quit_swiping == "q":
-                print("My work is over ft Tinder")
+                print("Stopped")
                 quit_loop = False
 
 #execution
