@@ -1,5 +1,4 @@
-"""Tinder bot swipe like and dislike 3 times automatically . I've not added Matching concept coz i'm not lucky 
-to get a match .If you use firefox driver manually click allow location which pop up (top of the page) 
+"""Tinder bot swipe like and dislike 3 times automatically .Auto matching part not added.If you use firefox driver manually click allow location which pop up (top of the page) 
 becuase this does not comes handy in developer tools.Script fb_login.py enter your email and password for logging
 in Facebook"""
 
